@@ -1,0 +1,99 @@
+body{
+    height: 1000vh;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    overflow: auto;
+     animation-name: box;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: absolute;
+    border-radius: 100px;
+}
+
+.box:hover{
+    width: 200px;
+    height: 200px;
+    transition: width, height 2s;
+    transition-delay: 2s;
+    /* transform: translate(40px, 40px); */
+    /* transform: scale(0.9); */
+    /* transform: rotate(45deg); */
+  
+
+}
+
+@keyframes box {
+    /* 20%{
+        background-color: yellow;
+        right: 0px;
+        transition: right 5s;
+
+    }
+
+    40%{
+        background-color: blue;
+        top: 500px;
+        transition: top 35s;
+
+    }
+    60%{
+        background-color: green;
+        top: 500px;
+        transition: top 5s;
+        left: 0px;
+    }
+    80%{
+        background-color: purple;
+
+    }
+    100%{
+        background-color: black;
+    } */
+
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+
+a:link{
+    color: brown;
+}
+
+a:visited{
+    color: greenyellow;
+}
+img{
+    /* filter: blur(5px); */
+    filter: contrast(150%);
+    opacity: 100%;
+    position: relative ;
+    bottom: 160px;
+    right: 70px;
+    /* margin-top: 200px; */
+    /* width: 100px; */
+    z-index: -1;
+
+}
+
+.lambo{
+    width: 60%;
+    height: 450px;
+    overflow: hidden;
+}
+
+ h1{
+    font-size: 200px;
+    position: absolute;
+    bottom: 200px;
+    color: white;
+}

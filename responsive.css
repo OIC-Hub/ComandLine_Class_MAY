@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+    display: flex;
+    gap: 400px;
+    justify-content: space-around;
+    /* width:; */
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.con{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    nav{
+        width: 100%;
+        gap: 200px;
+       
+    }
+
+    .navlinks{
+        display: none;
+    }
+
+    .con{
+        display: block;
+    }
+
+
+}
